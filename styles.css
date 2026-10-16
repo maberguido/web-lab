@@ -1,6 +1,24 @@
-body {
-  font-family: system-ui, sans-serif;
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #24292f;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  margin: -2rem -2rem 2rem -2rem;
+}
+
+.site-header h1 {
   margin: 0;
-  padding: 2rem;
-  background: #f6f8fa;
+  font-size: 1.5rem;
+}
+
+.site-header nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 1.5rem;
+}
+
+.site-header nav a:hover {
+  text-decoration: underline;
 }
