@@ -22,3 +22,17 @@
 .site-header nav a:hover {
   text-decoration: underline;
 }
+.site-header nav button {
+  margin-left: 1.5rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+[data-theme="dark"] {
+  background: #0d1117;
+  color: #c9d1d9;
+}
